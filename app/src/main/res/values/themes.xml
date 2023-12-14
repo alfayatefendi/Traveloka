@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Traveloka" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/blue</item>
+        <item name="colorAccent">@color/blue</item>
+        <item name="android:statusBarColor">@color/blue_dark</item>
+        <item name="android:textColorPrimary">@color/text</item>
+        <item name="android:textColorSecondary">@color/text</item>
+    </style>
+    <style name="Theme.Traveloka.Starting" parent="Theme.Traveloka.Starting.Base.Legacy"/>
+    <style name="Theme.Traveloka.Starting.Base" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="colorAccent">@color/blue</item>
+    </style>
+    <style name="Theme.Traveloka.Starting.Base.Legacy">
+        <item name="android:windowBackground">@drawable/static_traveloka_logo</item>
+    </style>
+</resources>
